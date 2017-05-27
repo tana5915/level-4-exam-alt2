@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class CountindDuplicatesTest {
     @Test
+    
     public void abcdeReturnsZero() {
         assertEquals(0, CountingDuplicates.duplicateCount("abcde"));
     }
@@ -15,6 +16,7 @@ public class CountindDuplicatesTest {
     }
     
     @Test
+    
     public void aabbcdeBReturnsTwo() {
         assertEquals(2, CountingDuplicates.duplicateCount("aabbcdeB"));
     }
@@ -33,4 +35,7 @@ public class CountindDuplicatesTest {
     public void aa11ReturnsTwo() {
         assertEquals(2, CountingDuplicates.duplicateCount("aa11"));
     }
+    
+    
+    
 }
